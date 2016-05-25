@@ -56,10 +56,10 @@ insert into cliente(id_conta,nome,telefone,tipo_cliente,data_nascimento,data_cad
 insert into emprestimo(id_agencia, id_cliente,taxa_de_juros,data_emprestimo,valor_restante,valor,status) values(1,1,2.1,'2015-12-01',2000,2000,'Pendente');
 insert into emprestimo(id_agencia, id_cliente,taxa_de_juros,data_emprestimo,valor_restante,valor,status) values(1,2,2.1,'2015-12-07',4000,4000,'Pendente');
 insert into emprestimo(id_agencia, id_cliente,taxa_de_juros,data_emprestimo,valor_restante,valor,status) values(1,3,2.0,'2014-11-08',4000,4000,'Pendente');
-insert into emprestimo(id_agencia, id_cliente,taxa_de_juros,data_emprestimo,valor_restante,valor,status) values(1,4,2.0,'2014-11-02',7000,7000,'Pendente');
-insert into emprestimo(id_agencia, id_cliente,taxa_de_juros,data_emprestimo,valor_restante,valor,status) values(3,5,2.1,'2014-05-05',200,200,'Pendente');
+insert into emprestimo(id_agencia, id_cliente,taxa_de_juros,data_emprestimo,valor_restante,valor,status) values(1,4,2.0,'2014-11-02',0,7000,'pago');
+insert into emprestimo(id_agencia, id_cliente,taxa_de_juros,data_emprestimo,valor_restante,valor,status) values(3,5,2.1,'2014-05-05',0,200,'Pago');
 insert into emprestimo(id_agencia, id_cliente,taxa_de_juros,data_emprestimo,valor_restante,valor,status) values(3,6,2.1,'2016-05-09',9500,9500,'Pendente');
 insert into emprestimo(id_agencia, id_cliente,taxa_de_juros,data_emprestimo,valor_restante,valor,status) values(2,7,1.1,'2016-05-08',8000,8000,'Pendente');
-insert into emprestimo(id_agencia, id_cliente,taxa_de_juros,data_emprestimo,valor_restante,valor,status) values(4,8,2,'2016-05-21',700,700,'Pendente');
+insert into emprestimo(id_agencia, id_cliente,taxa_de_juros,data_emprestimo,valor_restante,valor,status) values(4,8,2,'2016-05-21',0,700,'Pago');
 insert into emprestimo(id_agencia, id_cliente,taxa_de_juros,data_emprestimo,valor_restante,valor,status) values(4,9,1.5,'2016-05-12',5500,5500,'Pendente');
 insert into emprestimo(id_agencia, id_cliente,taxa_de_juros,data_emprestimo,valor_restante,valor,status) values(4,10,2.8,'2016-05-11',2200,2200,'Pendente');
