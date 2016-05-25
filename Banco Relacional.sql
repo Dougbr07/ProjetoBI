@@ -2,7 +2,7 @@ create table agencia (
 
 id_agencia SERIAL PRIMARY KEY,
 endereco varchar(100) not null,
-telefone varchar(15) not null,
+telefone varchar(15) not null
 
 );
 
@@ -64,4 +64,4 @@ id_emprestimo integer references emprestimo(id_emprestimo),
 valor real not null,
 data_pagamento date not null
 
-);
+)
