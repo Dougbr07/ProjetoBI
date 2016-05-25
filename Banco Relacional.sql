@@ -1,4 +1,4 @@
-﻿create table agencia (
+create table agencia (
 
 id_agencia SERIAL PRIMARY KEY,
 endereco varchar(100) not null,
@@ -24,6 +24,7 @@ estado_civil varchar(20)
 create table funcionario (
 
 id_fucionario SERIAL PRIMARY KEY,
+id_agencia integer references agencia(id_agencia),
 nome varchar(50),
 telefone varchar(15),
 data_inicio date not null,
