@@ -25,10 +25,10 @@ create table funcionario (
 
 id_fucionario SERIAL PRIMARY KEY,
 id_agencia integer references agencia(id_agencia),
-nome varchar(50),
-telefone varchar(15),
+nome varchar(50) not null,
+telefone varchar(15) not null,
 data_inicio date not null,
-data_saida date not null,
+data_saida date,
 cpf varchar(14) not null,
 cargo varchar(30) not null,
 salario real not null
