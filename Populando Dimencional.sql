@@ -11,7 +11,7 @@ insert into conta(id_agencia, saldo, tipo_conta) values(1, 5345, 'Poupanca');
 insert into conta(id_agencia, saldo, tipo_conta) values(1, 432, 'Poupanca');
 insert into conta(id_agencia, saldo, tipo_conta) values(3, 2343, 'Poupanca');
 insert into conta(id_agencia, saldo, tipo_conta) values(3, 90000, 'Corrente');
-insert into conta(id_agencia, saldo, tipo_conta) values(2, 1200600, 'Poupanca');
+insert into conta(id_agencia, saldo, tipo_conta) values(2, 12000, 'Poupanca');
 insert into conta(id_agencia, saldo, tipo_conta) values(4, 50, 'Corrente');
 insert into conta(id_agencia, saldo, tipo_conta) values(4, 350, 'Corrente');
 insert into conta(id_agencia, saldo, tipo_conta) values(4, 2300, 'Corrente');
