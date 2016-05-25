@@ -21,7 +21,7 @@ insert into funcionario(id_agencia,nome,telefone,data_inicio,cpf,cargo,salario) 
 insert into funcionario(id_agencia,nome,telefone,data_inicio,cpf,cargo,salario) values(1,'Maria','(12)3213-4324','2002-12-01','324245354','Caixa','2000');
 insert into funcionario(id_agencia,nome,telefone,data_inicio,cpf,cargo,salario) values(1,'Francisco','(12)3213-4324','2001-09-01','324245354','Caixa','2000');
 insert into funcionario(id_agencia,nome,telefone,data_inicio,cpf,cargo,salario) values(1,'Fernanda','(12)3213-4324','2003-12-01','324245354','Caixa','2000');
-insert into funcionario(id_agencia,nome,telefone,data_inicio,cpf,cargo,salario) values(1,'Gomes','(12)3213-4324','2005-13-28','324245354','Caixa','2000');
+insert into funcionario(id_agencia,nome,telefone,data_inicio,cpf,cargo,salario) values(1,'Gomes','(12)3213-4324','2005-07-28','324245354','Caixa','2000');
 insert into funcionario(id_agencia,nome,telefone,data_inicio,cpf,cargo,salario) values(2,'Claudio','(12)3213-4324','2005-10-17','324245354','Gerente','8000');
 insert into funcionario(id_agencia,nome,telefone,data_inicio,cpf,cargo,salario) values(2,'Claudia','(12)3213-4324','2002-11-19','324245354','Caixa','2000');
 insert into funcionario(id_agencia,nome,telefone,data_inicio,cpf,cargo,salario) values(2,'Raphaela','(12)3213-4324','1999-09-16','324245354','Caixa','2000');
@@ -62,4 +62,4 @@ insert into emprestimo(id_agencia, id_cliente,taxa_de_juros,data_emprestimo,valo
 insert into emprestimo(id_agencia, id_cliente,taxa_de_juros,data_emprestimo,valor_restante,valor,status) values(2,7,1.1,'2016-05-08',8000,8000,'Pendente');
 insert into emprestimo(id_agencia, id_cliente,taxa_de_juros,data_emprestimo,valor_restante,valor,status) values(4,8,2,'2016-05-21',0,700,'Pago');
 insert into emprestimo(id_agencia, id_cliente,taxa_de_juros,data_emprestimo,valor_restante,valor,status) values(4,9,1.5,'2016-05-12',5500,5500,'Pendente');
-insert into emprestimo(id_agencia, id_cliente,taxa_de_juros,data_emprestimo,valor_restante,valor,status) values(4,10,2.8,'2016-05-11',2200,2200,'Pendente');
+insert into emprestimo(id_agencia, id_cliente,taxa_de_juros,data_emprestimo,valor_restante,valor,status) values(4,10,2.8,'2016-05-11',2200,2200,'Pendente')
