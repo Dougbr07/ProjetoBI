@@ -6,20 +6,6 @@ telefone varchar(15) not null
 
 );
 
-create table cliente (
-
-id_cliente SERIAL PRIMARY KEY,
-nome varchar(50) not null,
-telefone varchar(15) not null,
-tipo_cliente varchar(20) not null,
-data_nascimento date,
-data_cadastro date,
-cpf varchar(14) not null,
-sexo varchar(20),
-rg varchar(20) not null,
-estado_civil varchar(20)
-
-);
 
 create table funcionario (
 
@@ -41,6 +27,22 @@ id_conta SERIAL PRIMARY KEY,
 id_agencia integer references agencia(id_agencia),
 saldo real not null,
 tipo_conta varchar(20) not null
+
+);
+
+create table cliente (
+
+id_cliente SERIAL PRIMARY KEY,
+id_conta integer references conta(id_conta),
+nome varchar(50) not null,
+telefone varchar(15) not null,
+tipo_cliente varchar(20) not null,
+data_nascimento date,
+data_cadastro date,
+cpf varchar(14) not null,
+sexo varchar(20),
+rg varchar(20) not null,
+estado_civil varchar(20)
 
 );
 
